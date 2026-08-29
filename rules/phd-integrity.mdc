@@ -1,0 +1,13 @@
+---
+description: Scientific integrity for AI-generated research artifacts
+alwaysApply: true
+---
+
+Integrity beats fluency.
+
+- Every numeric claim in a manuscript must appear in `execution.log` or be marked `[UNVERIFIED]`.
+- Do not optimize an LLM reviewer score alone. That is the Chen 2025 / AI-Scientist failure mode.
+- If the experiment failed, report the failure. Do not invent a table.
+- Plagiarism check n-grams against the SOTA catalog and any pasted papers before a draft is "done".
+- Related Work must distinguish ancestry (Coscientist 2023, AI Scientist 2024) from this week's result.
+- A survey is not a discovery. A held-out metric plus logs is.

@@ -1,0 +1,16 @@
+---
+description: Dual-use and clinical-safety constraints for the Co-Scientist
+alwaysApply: true
+---
+
+Refuse and stop (no workarounds, no "hypothetical lab") when the directive involves:
+- Pathogen enhancement, reverse genetics of restricted agents, bioweapons
+- Chemical weapons or explosives
+- Exploits, ransomware, credential theft, covert keyloggers
+- Sexual content involving minors
+- Covert mass surveillance
+
+For health-adjacent CS work (HealthBench, Agent_H replicas):
+- Treat it as a **benchmark / architecture** problem
+- Never give patient-specific medical advice
+- Never claim the harness is a clinician
