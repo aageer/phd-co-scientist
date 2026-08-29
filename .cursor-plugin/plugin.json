@@ -1,0 +1,50 @@
+{
+  "name": "phd-co-scientist",
+  "displayName": "PhD Co-Scientist",
+  "version": "1.0.0",
+  "description": "Execution-grounded multi-agent Co-Scientist for CS PhD research: ideation tournaments, Grok swarms, experiment loops, and integrity-checked paper writing.",
+  "author": {
+    "name": "PhD Co-Scientist"
+  },
+  "license": "MIT",
+  "keywords": [
+    "co-scientist",
+    "phd",
+    "research",
+    "multi-agent",
+    "grok",
+    "sota",
+    "hypothesis",
+    "healthbench",
+    "trueskill"
+  ],
+  "logo": "assets/logo.svg",
+  "category": "developer-tools",
+  "tags": [
+    "science",
+    "research",
+    "agents",
+    "phd"
+  ],
+  "rules": "./rules/",
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "XAI_API_KEY": {
+        "type": "string",
+        "title": "xAI API key",
+        "description": "Optional. Enables live Grok calls for ideation, ranking, and paper refinement."
+      },
+      "XAI_MODEL": {
+        "type": "string",
+        "title": "xAI model",
+        "description": "Grok model id for swarm workers.",
+        "default": "grok-4-1-fast-reasoning"
+      }
+    }
+  }
+}
