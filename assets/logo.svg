@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="PhD Co-Scientist">
+  <rect width="128" height="128" rx="28" fill="#0B1220"/>
+  <path d="M64 18 L108 42 V86 L64 110 L20 86 V42 Z" fill="none" stroke="#6EE7B7" stroke-width="4"/>
+  <circle cx="64" cy="64" r="14" fill="#38BDF8"/>
+  <circle cx="40" cy="48" r="7" fill="#FBBF24"/>
+  <circle cx="88" cy="48" r="7" fill="#A78BFA"/>
+  <circle cx="40" cy="82" r="7" fill="#F472B6"/>
+  <circle cx="88" cy="82" r="7" fill="#34D399"/>
+  <path d="M47 52 L57 58 M71 58 L81 52 M47 76 L57 70 M71 70 L81 76" stroke="#E2E8F0" stroke-width="3" stroke-linecap="round"/>
+</svg>
