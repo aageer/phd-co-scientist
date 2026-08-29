@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "./scripts/ethics-prompt.mjs"
+      }
+    ],
+    "beforeShellExecution": [
+      {
+        "command": "./scripts/ethics-shell.mjs"
+      }
+    ]
+  }
+}
